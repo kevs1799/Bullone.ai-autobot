@@ -1,4 +1,4 @@
-# 🤖 Bullone.ai Campaign Automation Bot (CommonJS)
+# 🤖 Bullone.ai Campaign Automation Bot 
 
 Multi-wallet Node.js automation bot for completing daily and one-time tasks on the Bullone.ai / Bullink Core testnet campaign.
 
