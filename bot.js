@@ -1,12 +1,12 @@
 const { ethers } = require("ethers");
 const axios = require("axios");
 const { wrapper } = require("axios-cookiejar-support");
+const accounts = require("eth_accounts");
 const { CookieJar } = require("tough-cookie");
 const readlineSync = require("readline-sync");
 const fs = require("fs");
 const path = require("path");
 require("colors");
-const accounts = require("eth_accounts");
 
 const config = require("./config");
 
@@ -44,6 +44,7 @@ async function nextNonce(wallet) {
   const nonce = await ensureNonce(wallet);
   const next = nonce + 1n;
   nonceState.set(addr, next);
+  await sleep(300); // small delay to let node register previous tx
   return next;
 }
 
