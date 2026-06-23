@@ -37,7 +37,8 @@ Multi-wallet Node.js automation bot for completing daily and one-time tasks on t
 ## 🚀 Installation & Usage
 
 ```bash
-cd bullone-bot
+git clone https://github.com/kevs1799/Bullone.ai-autobot.git
+cd Bullone.ai-autobot
 npm install
 ```
 
