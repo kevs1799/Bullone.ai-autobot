@@ -31,6 +31,7 @@ Multi-wallet Node.js automation bot for completing daily and one-time tasks on t
 ## 🛠️ Requirements
 - [Node.js](https://nodejs.org/) >= 16
 - npm
+- Bind twitter and discord on [bullone.ai/](https://www.bullone.ai/campaign)
 
 ---
 
